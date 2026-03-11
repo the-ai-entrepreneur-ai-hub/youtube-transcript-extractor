@@ -3,6 +3,7 @@
 Extract transcripts, subtitles, and captions from any YouTube video. Supports playlists, channels, 100+ languages, and both manual and auto-generated captions. Perfect for AI training data, RAG pipelines, content repurposing, and SEO analysis. No YouTube API key required.
 
 [![Run on Apify](https://img.shields.io/badge/Run%20on-Apify-blue?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTQgMjhDMjEuNzMyIDI4IDI4IDIxLjczMiAyOCAxNEMyOCA2LjI2OCAyMS43MzIgMCAxNCAwQzYuMjY4IDAgMCA2LjI2OCAwIDE0QzAgMjEuNzMyIDYuMjY4IDI4IDE0IDI4WiIgZmlsbD0iIzk3RDdGRiIvPjwvc3ZnPg==)](https://apify.com/george.the.developer/youtube-transcript-scraper)
+[![Available on RapidAPI](https://img.shields.io/badge/Also%20on-RapidAPI-blue?logo=rapidapi)](https://rapidapi.com/georgethedeveloper3046/api/youtube-transcript-extractor-api)
 [![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)](https://opensource.org/licenses/ISC)
 
 ## What It Does
@@ -151,6 +152,15 @@ print(f"Built {len(documents)} documents for RAG pipeline")
 ## Run on Apify
 
 **[Run this actor on Apify](https://apify.com/george.the.developer/youtube-transcript-scraper)** — extract transcripts from hundreds of videos in minutes.
+
+## Also Available on RapidAPI
+
+Prefer a standard REST API? This extractor is also available on **[RapidAPI](https://rapidapi.com/georgethedeveloper3046/api/youtube-transcript-extractor-api)** with simple API key authentication:
+
+- **Free tier**: 30 requests/month
+- **Pro**: $19/month (500 requests)
+- **Ultra**: $49/month (2,000 requests)
+- **Mega**: $129/month (10,000 requests)
 
 ## Limitations
 
