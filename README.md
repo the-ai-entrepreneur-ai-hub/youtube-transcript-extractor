@@ -8,6 +8,20 @@ Extract transcripts, subtitles, and captions from any YouTube video. Supports pl
 
 ## What It Does
 
+```mermaid
+flowchart LR
+    A["YouTube URLs<br/>Videos, Playlists, Channels"] --> B["InnerTube API<br/>Android / iOS / TV clients"]
+    B --> C["Caption Tracks<br/>100+ Languages"]
+    C --> D["Structured Output<br/>Full Text + Timestamps"]
+    D --> E["Your Pipeline<br/>RAG / AI / Content"]
+
+    style A fill:#ff0000,color:#fff,stroke:none
+    style B fill:#1a1a2e,color:#fff,stroke:none
+    style C fill:#0f3460,color:#fff,stroke:none
+    style D fill:#533483,color:#fff,stroke:none
+    style E fill:#34a853,color:#fff,stroke:none
+```
+
 This extractor uses YouTube's internal InnerTube API to fetch caption tracks directly — no YouTube Data API key required, no OAuth, no quotas. It tries multiple client types (Android, iOS, TV) to maximize success rate, even for music videos and VEVO content.
 
 ## What Data You Get
