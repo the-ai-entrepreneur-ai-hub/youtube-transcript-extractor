@@ -195,4 +195,4 @@ ISC License. See [LICENSE](LICENSE) for details.
 
 ---
 
-Built by [george.the.developer](https://apify.com/george.the.developer?fpr=bbquoh) on [Apify](https://apify.com).
+Built by [george.the.developer](https://apify.com/george.the.developer?fpr=bbquoh) on [Apify](https://apify.com?fpr=bbquoh).
